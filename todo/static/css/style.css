@@ -1,0 +1,164 @@
+
+  
+  
+.App {
+  text-align: center;
+}
+
+/* wrap entire page, reused for login & todo */
+.signup-login {
+  background-color: #0f1f37;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.TodoWrapper {
+  position: relative;
+  background-color: #252525;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  margin: 20px auto;
+}
+
+.TodoWrapper h1 {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.TodoForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 20px;
+  border: 1px solid #8758ff;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  margin-bottom: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.todo-input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+.todo-input:focus {
+  border-color: #fff;
+}
+
+.todo-btn {
+  padding: 12px 24px;
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+.todo-btn:hover {
+  box-shadow: 0 0 10px #8758ff;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffff00a9;
+  color: #252525;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+.Todo h5 {
+  margin: 0 1rem 0 0;
+  font-weight: 600;
+}
+.Todo a {
+  color: inherit;
+  margin: 0 0.5rem;
+}
+.Todo a:hover {
+  color: #8758ff;
+}
+
+.scr {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+.scr::-webkit-scrollbar {
+  width: 6px;
+}
+.scr::-webkit-scrollbar-thumb {
+  background: #8758ff;
+  border-radius: 3px;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
+
+.todo-green {
+  background-color: green;
+}
+.todo-red {
+  background-color: red;
+}
+
+.anca {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.5rem;
+}
+.heads {
+  display: flex;
+  justify-content: space-evenly;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.todo-green {
+  background-color: green;
+  /* Add other styles as needed */
+}
+
+.todo-red {
+  background-color: red;
+  /* Add other styles as needed */
+}
+
+.anca{
+  font-size: 25px;
+    margin-top: 7px;
+    /* margin-left: -68px; */
+    margin-right: -41px;
+}
+.heads{
+  display: flex;
+    justify-content: space-evenly;
+}

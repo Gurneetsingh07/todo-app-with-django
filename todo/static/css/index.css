@@ -1,0 +1,117 @@
+/* reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f1f37;
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* shared page container */
+.signup-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* card/box for forms */
+.signup-box,
+.signup-box1 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  width: 100%;
+  max-width: 520px;
+  padding: 40px 30px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* headings */
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* form fields */
+.field {
+  margin-bottom: 20px;
+}
+.field b {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.inp {
+  width: 100%;
+  padding: 12px 20px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1rem;
+}
+.inp::placeholder {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+/* buttons */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  background: #252525;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.submit-button:hover {
+  background: #ffff00bc;
+}
+
+/* links */
+.login-link,
+.anc,
+a.login-link {
+  color: #ffff00bc;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover,
+.login-link:hover {
+  color: #fff;
+}
+
+/* separator line */
+.line {
+  height: 1px;
+  background: #fff;
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* misc */
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
+
+/* footer alignment for login/signup pages */
+.footer {
+  text-align: center;
+}
+.footer b {
+  display: block;
+  margin-bottom: 8px;
+}
