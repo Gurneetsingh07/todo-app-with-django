@@ -4,6 +4,8 @@ from django.urls import path
 from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # redirect root URL to signup page
+    path('', views.signup, name='home'),
     path('signup/',views.signup),
     path('login/',views.login),
     path('todo/',views.todo),
